@@ -1,0 +1,48 @@
+@use 'variables' as*;
+
+
+/*---------------------footer---------------------------------------*/
+
+
+footer {
+    height: 100%;
+    background-color: $coul-bg ;
+    padding-top: 12px;
+    .card-footer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:  auto;
+        .footer-bloc-2
+        {
+            margin-top: 20px;
+        }
+        
+        .footer-bloc-3
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+
+    }
+
+
+}
+
+
+.sous-bloc-footer-1__one--icone, .sous-bloc-footer-2__one--icone{
+    margin-right: 9px;
+}
+
+.footer-bloc-1__text ,.sous-bloc-footer-1__one, .sous-bloc-footer-2__one{
+    color: $text-color;
+    font-weight: bolder;
+}
+
+.footer-bloc-2__link-1, .footer-bloc-2__link-2, .footer-bloc-2__link-3,.footer-bloc-2__link-4{
+    margin-right: 5px;
+    
+}

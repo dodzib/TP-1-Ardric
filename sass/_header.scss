@@ -1,0 +1,49 @@
+@use 'variables' as*;
+/*---------------------Style header-------------------------------------------------------*/
+
+.item{
+    list-style: none;
+    .item__list
+    {
+        display: inline-block;
+            
+            .item__link
+            {
+                font-weight: bold;
+                color: $text-color;
+                margin-right: 1.25rem;
+                font-size: 1rem;
+                list-style: none;
+                font-weight:100;
+                font-family: 'crete round',serif,"Arial black",sans-serif;
+            }
+
+            .item__icon{
+                margin-right: 0.188rem;
+                margin-bottom: -4px;
+            }
+
+    }
+
+}
+
+
+.bloc {
+    background-color: $coul-bg ;
+    height: 120px;
+    .bloc__text
+    {
+        float: left;
+        margin-top: 1.563rem;
+        margin-left: 1.563rem;
+        background-size: cover;
+        font-size: xx-large;
+    }
+    .bloc__nav
+    {
+        float: right;
+        margin-top: 2.188rem;
+        margin-right: 1.25rem;
+    }
+
+}

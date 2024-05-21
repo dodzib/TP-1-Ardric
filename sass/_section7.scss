@@ -1,0 +1,110 @@
+@use 'variables' as*;
+
+/*---------------------Style section 7-----------------------*/
+
+.section-7{
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: $coul-bg;
+    margin: auto;
+    .section-7__first
+    {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px 0 2.5rem 0;
+        margin-bottom: 15px;
+        color: $primary-color;
+        font-size: 40px;
+       
+    }
+    .section-7__second
+    {
+        text-align: center;
+        margin-bottom: 1.875rem;
+        font-weight: bold;
+        font-size: 1.188rem;
+        color: $text-color;
+    }
+    .section-7__tree
+    {
+        padding-left: 0;
+        #flexbox-steps-one
+        {
+            /*display: flex;*/
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.875rem;
+            margin: auto;
+           
+        }
+    }
+
+
+}
+
+
+
+
+.section-7 ul li
+{
+   width: 100%;
+  /* float: left;*/
+   padding-top: 5px;
+   text-align: center;
+   margin: 1.25rem;
+   box-shadow: 5px 5px 14px $background-color;
+   padding-left: 9px;
+   background-color: $background-color;
+   border-radius: 6px;
+   
+}
+
+.section-7 h4
+{
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    text-align: left;
+    color: $text-color;
+    font-weight: bold;
+}
+.section-7 h5
+{
+    margin-bottom: 1.25rem;
+    font-size: 0.80rem;
+    text-align: left;
+    color: $text-color;
+    font-weight: bold;
+}
+
+.section-7 P
+{
+    margin-bottom:  1.25rem;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.step-4__one, .step-5__one, .step-6__one, .step-7__one{
+    border-radius: 10px;
+}
+.item-2{
+    list-style: none;
+    
+}
+#step-4, #step-5, #step-6{
+    text-align: justify;
+    border-right: 7px $text-color solid ;
+    
+}
+#step-7{
+    text-align: justify;
+}
+.step-div__first, .step-div__two{
+    margin-right: 5px;
+}
+
+.step-4__four, .step-5__four, .step-6__four, .step-7__four{
+    text-align: justify;
+}

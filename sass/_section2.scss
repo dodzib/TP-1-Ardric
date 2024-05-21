@@ -1,0 +1,32 @@
+@use 'variables' as*;
+/*---------------------Style section-2-----------------------*/
+
+.section-2{
+    height: 600px;
+    background-size: cover;
+    .slideshow-container 
+    {
+        position: relative;
+        height: auto;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+     
+        .slide 
+        {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            margin: 15px auto 0;
+           
+          }
+          .fade 
+          {
+            display: none;
+          }
+          
+      }
+      
+}

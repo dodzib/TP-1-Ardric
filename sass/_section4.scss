@@ -1,0 +1,26 @@
+@use 'variables' as*;
+
+/*-------------------------------Style section-4----------------------------------*/
+
+
+.section-4{
+    background-color: $coul-bg;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto 1px;
+    .section-4__first
+    {
+        font-size: 15px;
+        width: 596px;
+        height: 120px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 5px;
+        color: $text-color;
+        font-weight: bold;
+    }
+    
+
+}

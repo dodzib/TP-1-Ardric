@@ -1,0 +1,70 @@
+@use 'variables' as*;
+
+/*---------------------Style section 6-----------------------*/
+
+.section-6{
+    height: 100%;
+    background-color: $background-color;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .section-6__flexbox
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 100%;
+      
+        .bloc-info
+        {
+            .bloc-info__two
+            {
+                text-align: justify;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        
+            .bloc-info__tree
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2px;
+                width: 100%;
+                .sous-bloc1
+                {
+                    .sous-bloc1__one
+                    {
+                        font-size: 60px;
+                        font-weight: bold;
+                    }
+                    .sous-bloc1__two
+                    {
+                        font-size: small;
+                        margin-top: 2px;
+                        font-weight: normal;
+                    }
+                }
+                .sous-bloc2
+                {
+                    .sous-bloc2__one
+                    {
+                        font-size: 60px;
+                        font-weight: bold;
+                    }
+                    .sous-bloc2__two
+                    {
+                        font-size: small;
+                        margin-top: 2px;
+                        font-weight: normal;
+                    }
+                }
+
+            }
+            
+        }
+
+        
+    }
+
+
+}
+

@@ -1,0 +1,65 @@
+@use 'variables' as*;
+
+/*---------------------Style section-5-----------------------*/
+
+
+.section-5{
+    height: 100%;
+    background-color: $background-color;
+    .section-5__first
+    {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 9.375rem 0 2.5rem 0;
+        margin-bottom: 1.25rem;
+        color: $text-color;
+        font-size: 40px;
+        margin-top: 1px;
+    }
+    .section-5__second
+    {
+        text-align: center;
+        margin-bottom: 1.875rem;
+        font-weight: bold;
+        font-size: 1.188rem;
+    }
+    .section-5__tree{
+       
+        #flexbox-steps
+        {
+        /*display: flex;*/
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.875rem;   
+
+        }
+        
+    }
+
+}
+
+
+
+.section-5{
+    .item-1
+    {
+        list-style: none;
+    }   
+        li
+        {
+        width: 100%;
+       /* float: left;*/
+        padding-top: 5px;
+        text-align: center;
+        margin: 1.25rem;
+        }
+            .step-1__first, .step-2__first, .step-3__first
+            {
+            border-radius: 50%;
+            } 
+                p
+                {
+                font-weight: bold;
+                } 
+    }

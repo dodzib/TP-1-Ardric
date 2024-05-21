@@ -1,0 +1,78 @@
+@use 'variables' as*;
+
+/*---------------------Style section grid--------------------------------*/
+  
+.section-grid{
+    background-color: $coul-bg;
+    padding: 60px 0;
+    .grid
+    {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        .grid__mosaique
+        {
+            grid-column: span 1;
+            grid-row: span 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 5px solid $primary-color;
+            transition: all 0.2s;
+            min-height: 220px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 10px 10px 10px $text-color;
+            font-size: 32px;
+            color: $text-color;
+            font-weight: bold;
+            margin-bottom: 40px;
+            &:hover{
+                border: 6px solid $secondary-color;
+            }
+
+        }
+        #menu-1{
+            grid-column: span 3;
+            grid-row: span 2;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwRqC5ARDXxFAg2laz1l6IanpT-iiGunOYrg&s);
+        }
+        
+        #menu-2{
+            grid-column: span 2;
+            grid-row: span 2/4;
+            background-image: url(https://www.mayrand.ca/globalassets/mayrand/catalog-mayrand/emballage/48181-panini-precuit-surgele-bridor-2.jpg);
+        }
+        
+        
+        #menu-3{
+            grid-column: 3/3;
+            grid-row: 3/3;
+            background-image: url(https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12027981&itemId=138904&recipeName=680);  
+            }
+        
+        
+        #menu-4{
+            grid-column: span 3;
+            grid-row: span 2;
+            background-image: url(https://eurousa.com/wp-content/uploads/009016-boulart_parisian_baguette-02.jpg);
+        }
+        
+        #menu-5{
+            grid-column: 6/6;
+            grid-row: 2/2;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTkAVc5iglKDrFHyt64cahoV5a8Kgp3x3tQ&s);
+        }
+        
+        #menu-6{
+            grid-column: 7/7;
+            grid-row: span 2/4;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMnbHbOuOHFzjJImHuOkB_2apP0JWUNP9H2A&s);
+        }
+          
+    }
+    
+}

@@ -1,0 +1,18 @@
+@use 'variables' as*;
+
+/*-------------section confirmation formulaire-----------------------*/
+
+.section-contacts{
+    height: 700px;
+    .section-contacts__confirmation
+    {
+        text-align: justify;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+}
+
+.section-contacts h2{
+    font-size: 40px;
+}
