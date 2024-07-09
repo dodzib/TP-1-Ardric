@@ -1,13 +1,13 @@
 {
-"name": "The name of your application",
-"short_name": "This name will show in your Windows taskbar, in the start menu, and Android homescreen",
-"start_url": "The URL that should be loaded when your application is opened",
+"name": "boulart bread",
+"short_name": "BBr",
+"start_url": "/index.html",
 "display": "standalone",
 "description": "A description for your application",
-"lang": " The default language of your application",
+"lang": " fr",
 "dir": "auto",
 "theme_color": "#000000",
-"background_color": "#000000",
+"background_color": "#ffffff",
 "orientation": "any",
 "icons": [
     {
