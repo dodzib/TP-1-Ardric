@@ -2,7 +2,7 @@
 const CACHE_NAME = 'static-cache-v4';
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
-    "offline",
+    "offline.html",
    
    
 
